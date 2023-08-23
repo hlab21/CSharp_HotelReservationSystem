@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FEF7435-1535-47CE-86EF-92A1AF166B86}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GROUP5_HOTEL_RESERVATION_SYSTEM</RootNamespace>
+    <AssemblyName>GROUP5-HOTEL_RESERVATION_SYSTEM</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro, Version=1.2.4.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.22.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.2.4.0\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminlog.Designer.cs">
+      <DependentUpon>adminlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminmodule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminmodule.Designer.cs">
+      <DependentUpon>adminmodule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="avail_rooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="avail_rooms.Designer.cs">
+      <DependentUpon>avail_rooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cancelreserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cancelreserve.Designer.cs">
+      <DependentUpon>cancelreserve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkin.Designer.cs">
+      <DependentUpon>checkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOut.Designer.cs">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="checkoutconfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="checkoutconfirm.Designer.cs">
+      <DependentUpon>checkoutconfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CheckOutSummary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckOutSummary.Designer.cs">
+      <DependentUpon>CheckOutSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GuestManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuestManagement.Designer.cs">
+      <DependentUpon>GuestManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogBook.Designer.cs">
+      <DependentUpon>LogBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editpass.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editpass.Designer.cs">
+      <DependentUpon>editpass.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RoomManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoomManagement.Designer.cs">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userlog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userlog.Designer.cs">
+      <DependentUpon>userlog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="usermodule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="usermodule.Designer.cs">
+      <DependentUpon>usermodule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="userregister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="userregister.Designer.cs">
+      <DependentUpon>userregister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Viewreservationdetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewreservationdetails.Designer.cs">
+      <DependentUpon>Viewreservationdetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VIEWROOMS.CS">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VIEWROOMS.Designer.CS">
+      <DependentUpon>VIEWROOMS.CS</DependentUpon>
+    </Compile>
+    <Compile Include="viewroomtype.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewroomtype.Designer.cs">
+      <DependentUpon>viewroomtype.cs</DependentUpon>
+    </Compile>
+    <Compile Include="viewuserhistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="viewuserhistory.Designer.cs">
+      <DependentUpon>viewuserhistory.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminlog.resx">
+      <DependentUpon>adminlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminmodule.resx">
+      <DependentUpon>adminmodule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="avail_rooms.resx">
+      <DependentUpon>avail_rooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cancelreserve.resx">
+      <DependentUpon>cancelreserve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkin.resx">
+      <DependentUpon>checkin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOut.resx">
+      <DependentUpon>CheckOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="checkoutconfirm.resx">
+      <DependentUpon>checkoutconfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CheckOutSummary.resx">
+      <DependentUpon>CheckOutSummary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuestManagement.resx">
+      <DependentUpon>GuestManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogBook.resx">
+      <DependentUpon>LogBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editpass.resx">
+      <DependentUpon>editpass.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RoomManagement.resx">
+      <DependentUpon>RoomManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userlog.resx">
+      <DependentUpon>userlog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="usermodule.resx">
+      <DependentUpon>usermodule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="userregister.resx">
+      <DependentUpon>userregister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Viewreservationdetails.resx">
+      <DependentUpon>Viewreservationdetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VIEWROOMS.resx">
+      <DependentUpon>VIEWROOMS.CS</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewroomtype.resx">
+      <DependentUpon>viewroomtype.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewuserhistory.resx">
+      <DependentUpon>viewuserhistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\Entypo.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CANCELWHITEBG.png" />
+    <None Include="Resources\CANCELBLUEBG.png" />
+    <None Include="Resources\EDITPASSWORDPURP.png" />
+    <None Include="Resources\EDITPASSWORDPURP1.png" />
+    <None Include="Resources\EDITPASSWORDPURP2.png" />
+    <None Include="Resources\EDITPASSPURP.png" />
+    <None Include="Resources\EDITPASSWHITE.png" />
+    <None Include="Resources\EDITPASSPURP1.png" />
+    <None Include="Resources\129954248_1295672707461775_6347751449033084323_n.png" />
+    <None Include="Resources\CANCELWHITEBG1.png" />
+    <None Include="Resources\129858465_720696015543342_326978694397626959_n.png" />
+    <None Include="Resources\129624667_168891974942667_4765669427173248929_n.png" />
+    <None Include="Resources\129517877_784269992431386_3760796874570087598_n.png" />
+    <None Include="Resources\130285288_216918980050332_6930598439947861637_n.png" />
+    <None Include="Resources\129759628_835185630615165_5390566525034118813_n.png" />
+    <None Include="Resources\129910069_145927710249179_6469491428346750551_n.png" />
+    <None Include="Resources\129546274_429940064836040_1716486020647123003_n.png" />
+    <None Include="Resources\129759425_2826041070984180_786134346622047223_n.png" />
+    <None Include="Resources\130076140_1050301585470392_4936392024931239131_n.png" />
+    <None Include="Resources\130840421_2930752367159075_6171339084748589446_n.png" />
+    <None Include="Resources\Asset 2.png" />
+    <None Include="Resources\cfar.png" />
+    <None Include="Resources\Asset 7.png" />
+    <None Include="Resources\Asset 5.png" />
+    <None Include="Resources\Asset 10.png" />
+    <None Include="Resources\Asset 101.png" />
+    <None Include="Resources\Asset 13.png" />
+    <None Include="Resources\CANCELWHITEBG2.png" />
+    <None Include="Resources\130708118_149133606575824_4244124056469936985_n %281%29.png" />
+    <None Include="Resources\CANCELWHITEBG3.png" />
+    <None Include="Resources\CHECKINPURP.png" />
+    <None Include="Resources\CHECKOUTWHITE.png" />
+    <Content Include="Resources\Entypo-license.txt" />
+    <None Include="Resources\MAINLOGIN.png" />
+    <None Include="Resources\MAINLOGIN2.png" />
+    <None Include="Resources\MAINLOGIN3.png" />
+    <None Include="Resources\REGISTERWHITEBG.png" />
+    <None Include="Resources\LOGINWHITEBG.png" />
+    <None Include="Resources\LOGINBLUEBG.png" />
+    <None Include="Resources\REGISTERWHITEBG1.png" />
+    <None Include="Resources\registerbluebg.png" />
+    <None Include="Resources\passsssspurop.png" />
+    <None Include="Resources\logoutpurp.png" />
+    <None Include="Resources\LOGOUTWHITE.png" />
+    <None Include="Resources\LOGO.png" />
+    <None Include="Resources\WALANGBGLOGO.png" />
+    <None Include="Resources\formbg.png" />
+    <None Include="Resources\SINGLEROOMSINGLEBED.png" />
+    <None Include="Resources\header.png" />
+    <None Include="Resources\STANDARDDOUBLEBED.png" />
+    <None Include="Resources\STANDARDDOUBLEBED1.png" />
+    <None Include="Resources\STANDARDDOUBLEBED2.png" />
+    <None Include="Resources\SINGLEROOMSMALLBED.png" />
+    <None Include="Resources\STANDARDTWINROOM.png" />
+    <None Include="Resources\ONEBEDROOMTRIPLEBED.png" />
+    <None Include="Resources\ONEBEDROOMTRIPLEBED1.png" />
+    <None Include="Resources\FAMILYROOM.png" />
+    <None Include="Resources\standardtwinroomused.png" />
+    <None Include="Resources\ltripleroomused.png" />
+    <None Include="Resources\lSINGLEBEDETONA.png" />
+    <None Include="Resources\lDOUBLEROOMUSED.png" />
+    <None Include="Resources\lFAMILYROOMUSED.png" />
+    <None Include="Resources\lbookpurp.png" />
+    <None Include="Resources\lbookpurp1.png" />
+    <None Include="Resources\lbookwhite.png" />
+    <None Include="Resources\lbookpurp_1.png" />
+    <None Include="Resources\lbookwhite_1.png" />
+    <None Include="Resources\lDOUBLEROOMUSED1.png" />
+    <None Include="Resources\ldobolroom.png" />
+    <None Include="Resources\lconfirmwhite.png" />
+    <None Include="Resources\lcancelreservewhite.png" />
+    <None Include="Resources\lhistorybg.png" />
+    <None Include="Resources\lHISTORYLOG2.png" />
+    <None Include="Resources\lguestmanagement.png" />
+    <None Include="Resources\lroommanagement.png" />
+    <None Include="Resources\lroommanage2.png" />
+    <None Include="Resources\lguestmanage.png" />
+    <None Include="Resources\lroommanage.png" />
+    <None Include="Resources\lguestmanage_1.png" />
+    <None Include="Resources\lCHECKINWHITE.png" />
+    <None Include="Resources\lCHECKINWHITE1.png" />
+    <None Include="Resources\lCANCELWHITE.png" />
+    <None Include="Resources\lCHECK-INWHITE.png" />
+    <None Include="Resources\lguestcheckin.png" />
+    <None Include="Resources\lguestcheckin_1.png" />
+    <None Include="Resources\lguestcheckout.png" />
+    <None Include="Resources\lguestcheckout1.png" />
+    <None Include="Resources\lguestcheckout_1.png" />
+    <None Include="Resources\lconfirmcheckout.png" />
+    <None Include="Resources\lcreateuserwhiet.png" />
+    <None Include="Resources\lcreatroomwhite.png" />
+    <None Include="Resources\llogbook.png" />
+    <None Include="Resources\lclose button.png" />
+    <None Include="Resources\lclose button1.png" />
+    <None Include="Resources\lAsset 18.png" />
+    <None Include="Resources\lclosebent.png" />
+    <None Include="Resources\lexit.png" />
+    <None Include="Resources\lviewreservationdetails.png" />
+    <None Include="Resources\lRESERVENOW.png" />
+    <None Include="Resources\lVIEWROOMS.png" />
+    <None Include="Resources\lCANCELRESERVE.png" />
+    <Content Include="Resources\WindowsIcons-license.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Resources\Icons.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\IconsNonShared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

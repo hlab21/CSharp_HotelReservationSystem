@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lAsset 18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lAsset 18.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="registerbluebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\registerbluebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129910069_145927710249179_6469491428346750551_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129910069_145927710249179_6469491428346750551_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ltripleroomused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ltripleroomused.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STANDARDDOUBLEBED2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STANDARDDOUBLEBED2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lVIEWROOMS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lVIEWROOMS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCANCELWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCANCELWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lcreateuserwhiet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lcreateuserwhiet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lconfirmwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lconfirmwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129624667_168891974942667_4765669427173248929_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129624667_168891974942667_4765669427173248929_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestcheckout1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestcheckout1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STANDARDDOUBLEBED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STANDARDDOUBLEBED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cfar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cfar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lclosebent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lclosebent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ONEBEDROOMTRIPLEBED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ONEBEDROOMTRIPLEBED1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELWHITEBG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELWHITEBG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lSINGLEBEDETONA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lSINGLEBEDETONA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lDOUBLEROOMUSED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lDOUBLEROOMUSED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lclose button1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lclose button1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSPURP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSPURP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lhistorybg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lhistorybg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REGISTERWHITEBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REGISTERWHITEBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="formbg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\formbg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lroommanage2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lroommanage2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lcancelreservewhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lcancelreservewhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHECKOUTWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHECKOUTWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130285288_216918980050332_6930598439947861637_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\130285288_216918980050332_6930598439947861637_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SINGLEROOMSINGLEBED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SINGLEROOMSINGLEBED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGINBLUEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGINBLUEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130708118_149133606575824_4244124056469936985_n (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\130708118_149133606575824_4244124056469936985_n (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lclose button" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lclose button.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lroommanagement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lroommanagement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestmanagement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestmanagement.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestcheckout_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestcheckout_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbookwhite_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lbookwhite_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lroommanage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lroommanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WALANGBGLOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WALANGBGLOGO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbookpurp_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lbookpurp_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lconfirmcheckout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lconfirmcheckout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestmanage_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestmanage_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129858465_720696015543342_326978694397626959_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129858465_720696015543342_326978694397626959_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lviewreservationdetails" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lviewreservationdetails.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SINGLEROOMSMALLBED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SINGLEROOMSMALLBED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CHECKINPURP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CHECKINPURP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELWHITEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELWHITEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSWORDPURP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSWORDPURP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSPURP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSPURP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSWORDPURP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSWORDPURP2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lRESERVENOW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lRESERVENOW.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGOUTWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGOUTWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestcheckin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestcheckin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="standardtwinroomused" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\standardtwinroomused.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lHISTORYLOG2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lHISTORYLOG2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGINWHITEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGINWHITEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STANDARDDOUBLEBED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STANDARDDOUBLEBED1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELBLUEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELBLUEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCHECK-INWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCHECK-INWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130840421_2930752367159075_6171339084748589446_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\130840421_2930752367159075_6171339084748589446_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCHECKINWHITE1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCHECKINWHITE1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCHECKINWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCHECKINWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbookwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lbookwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lDOUBLEROOMUSED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lDOUBLEROOMUSED1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELWHITEBG3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELWHITEBG3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ONEBEDROOMTRIPLEBED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ONEBEDROOMTRIPLEBED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="STANDARDTWINROOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\STANDARDTWINROOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ldobolroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ldobolroom.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestcheckout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestcheckout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestcheckin_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestcheckin_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="passsssspurop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\passsssspurop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129759425_2826041070984180_786134346622047223_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129759425_2826041070984180_786134346622047223_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129546274_429940064836040_1716486020647123003_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129546274_429940064836040_1716486020647123003_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lcreatroomwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lcreatroomwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129954248_1295672707461775_6347751449033084323_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129954248_1295672707461775_6347751449033084323_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbookpurp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lbookpurp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129517877_784269992431386_3760796874570087598_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129517877_784269992431386_3760796874570087598_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="130076140_1050301585470392_4936392024931239131_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\130076140_1050301585470392_4936392024931239131_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FAMILYROOM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FAMILYROOM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAINLOGIN3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAINLOGIN3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lFAMILYROOMUSED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lFAMILYROOMUSED.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 101" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 101.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSWHITE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSWHITE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EDITPASSWORDPURP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EDITPASSWORDPURP.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logoutpurp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logoutpurp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="129759628_835185630615165_5390566525034118813_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\129759628_835185630615165_5390566525034118813_n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CANCELWHITEBG1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CANCELWHITEBG1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asset 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asset 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lexit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lexit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAINLOGIN2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAINLOGIN2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="llogbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\llogbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lbookpurp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lbookpurp1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="REGISTERWHITEBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REGISTERWHITEBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MAINLOGIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MAINLOGIN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lguestmanage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lguestmanage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lCANCELRESERVE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lCANCELRESERVE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
